@@ -8,8 +8,6 @@
     <meta name="author" content="">
     <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-    
-
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/pricing/">
 
     <!-- Bootstrap core CSS -->
@@ -25,6 +23,8 @@
         <a class="p-2 text-dark" href="#">Registrar</a>
         <a class="p-2 text-dark" href="#">Actualizar</a>
         <a class="p-2 text-dark" href="#">Eliminar</a>
+        <!-- ✅ ENLACE AGREGADO -->
+        <a class="p-2 text-primary font-weight-bold" href="listar.php">Listar</a>
       </nav>
     </div>
 
@@ -76,6 +76,13 @@
         </div>
       </div>
 
+      <!-- ✅ BOTÓN EXTRA DEBAJO DEL FORMULARIO -->
+      <div class="text-center mt-4">
+        <a href="listar.php" class="btn btn-outline-secondary">
+          📋 Ver todos los registros
+        </a>
+      </div>
+
       <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="row">
           <div class="col-12 col-md">
@@ -86,10 +93,6 @@
       </footer>
     </div>
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
